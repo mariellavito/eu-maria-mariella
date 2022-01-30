@@ -5,6 +5,12 @@
     padding: 0;
 }
 
+:root {
+    --rosa: #FF7D7D;
+    --amarelo: #F4DD7D;
+    --verde: #A8CF45;
+}
+
 body {
     font: normal 1rem 'Montserrat';
 
@@ -76,80 +82,57 @@ header #banner .txt-banner .destaques:hover {
     color: transparent;
     
 }
+main #linguagens__programacao {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.html {
+    width: 33%;
+    padding: 3em;
+    border-bottom: 5px solid orangered;
+    background-color: orange;
+}
+
+.css {
+    width: 33%;
+    padding: 3em;
+    border-bottom: 5px solid #004CE8;
+    background-color: turquoise;
+}
+
+.js {
+    width: 33%;
+    padding: 3em;
+    border-bottom: 5px solid darkgoldenrod;
+    background-color: yellow;
+}
 
 /* Eu, Maria Mariella */
 
 main #sobre {
-    background: #A8CF45;
-    padding: 2rem 3rem 3rem 3rem;
-    text-align: center;
-    
-    
+    display: flex;
+    background-color: whitesmoke;
+    padding: 1em 3em;
+    gap: 5em;
+}
+
+main .sobre__txt {
+    width: 80%;
+    margin: auto;
+
+}
+
+main .sobre__txt .ola {
+    font-size: 3em;
 }
 
 main #sobre h1 {
-    font: 400 3rem 'WindSong', cursive;
-    text-align: center;
-    padding: 1rem 0;
+    font-size: 10em;
 }
 
 main #sobre h1:hover {
-    text-shadow: 1px 1px 3px black;
+    text-shadow: 1px 1px 3px gray;
 }
 
-main #sobre p {
-    width: 80%;
-    margin: auto;
-    padding-bottom: 2rem;
-    font-size: 1.3rem;
-}
-
-main #sobre #btn-sobre {
-    background-color: black;
-    color: white;
-    font: bold 1rem 'Montserrat';
-    padding: 1rem;
-    border: 3px solid black;
-}
-
-main #sobre #btn-sobre a {
-    color: white;
-}
-
-main #sobre #btn-sobre a:hover {
-    color: black;
-}
-
-main #sobre #btn-sobre:hover {
-    background: white;
-    border: 3px solid white;
-    color: black;
-    
-
-}
-
-main #sobre #btn-portfolio {
-    background-color: transparent;
-    font: bold 1rem 'Montserrat';
-    padding: 1rem;
-    border: 3px solid black;
-}
-
-
-main #sobre #btn-portfolio:hover {
-    border: 3px solid white;
-    color: white;
-}
-
-main #sobre #btn-portfolio a {
-    color: black;
-}
-
-main #sobre #btn-portfolio a:hover {
-    color: white;
-}
-
-main #trabalhos {
-    display: flex;
-    align-items: center;
-}
