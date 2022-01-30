@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=WindSong:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: normal 1rem 'Montserrat';
+
+}
+
+header {
+    background: whitesmoke;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    font-weight: bold;
+    
+}
+
+/* Navegação */
+
+header #navegacao, #banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    width: 90%;
+    margin: auto;
+}
+
+header #navegacao {
+    border-bottom: 2px solid white;
+}
+
+header #navegacao #logo {
+    display: flex;
+    align-items: center;
+}
+
+header #navegacao #logo h1 {
+    font: 400 3rem 'WindSong', cursive;
+    padding-left: 2rem;
+}
+
+header #navegacao #logo h1:hover {
+    text-shadow: 1px 1px 3px gray;
+}
+
+header #navegacao #menu ul li {
+    display: inline;
+    padding: 3rem;
+   
+}
+
+/* Banner do header */
+
+header #banner .txt-banner {
+    font-size: 2.5rem;
+}
+
+header #banner .txt-banner .destaques:hover {
+    /* escolho a cor do fundo */
+    background: linear-gradient(to left, #FF7D7D, #F4DD7D, #A8CF45);
+    /* faço um power clip no texto */
+    -webkit-background-clip: text;
+    /* deixo o preenchimento do texto transparente 
+    sugestão do css-tricks:
+    -webkit-text-fill-color: transparent; */
+    color: transparent;
+    
+}
+
+/* Eu, Maria Mariella */
+
+main #sobre {
+    background: #A8CF45;
+    padding: 2rem 3rem 3rem 3rem;
+    text-align: center;
+    
+    
+}
+
+main #sobre h1 {
+    font: 400 3rem 'WindSong', cursive;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+main #sobre h1:hover {
+    text-shadow: 1px 1px 3px black;
+}
+
+main #sobre p {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 2rem;
+    font-size: 1.3rem;
+}
+
+main #sobre #btn-sobre {
+    background-color: black;
+    color: white;
+    font: bold 1rem 'Montserrat';
+    padding: 1rem;
+    border: 3px solid black;
+}
+
+main #sobre #btn-sobre a {
+    color: white;
+}
+
+main #sobre #btn-sobre a:hover {
+    color: black;
+}
+
+main #sobre #btn-sobre:hover {
+    background: white;
+    border: 3px solid white;
+    color: black;
+    
+
+}
+
+main #sobre #btn-portfolio {
+    background-color: transparent;
+    font: bold 1rem 'Montserrat';
+    padding: 1rem;
+    border: 3px solid black;
+}
+
+
+main #sobre #btn-portfolio:hover {
+    border: 3px solid white;
+    color: white;
+}
+
+main #sobre #btn-portfolio a {
+    color: black;
+}
+
+main #sobre #btn-portfolio a:hover {
+    color: white;
+}
+
+main #trabalhos {
+    display: flex;
+    align-items: center;
+}
